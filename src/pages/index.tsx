@@ -1,7 +1,7 @@
-import Head from 'next/head'
+import {Title} from './styles/pages/home';
 
 export default function Home() {
   return (
-    <div>Olá mundo</div>
+    <Title>Olá mundo</Title>
     )
 }
